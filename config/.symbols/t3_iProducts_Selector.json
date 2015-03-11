@@ -1,0 +1,81 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "t3_iProducts_Selector", 
+    "tableDeclaration": {
+        "type": "t3_iProducts_Selector", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 18, 
+            "line": 1
+        }, 
+        "name": "t3_iProducts_Selector"
+    }, 
+    "key": "01pj0000003EOB5AAO", 
+    "variables": [
+        {
+            "type": "Set", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 38, 
+                "line": 3
+            }, 
+            "name": "ids"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 56, 
+                "line": 5
+            }, 
+            "name": "invoices"
+        }
+    ], 
+    "id": "01pj0000003EOB5AAO", 
+    "methods": [
+        {
+            "modifiers": [], 
+            "name": "selectById", 
+            "parameters": [
+                {
+                    "type": "Set", 
+                    "name": "ids"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 19, 
+                "line": 3
+            }, 
+            "returnType": "LIST", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "selectFromInvoices", 
+            "parameters": [
+                {
+                    "type": "LIST", 
+                    "name": "invoices"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 19, 
+                "line": 5
+            }, 
+            "returnType": "LIST", 
+            "type": null
+        }
+    ]
+}

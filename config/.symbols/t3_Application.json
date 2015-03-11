@@ -1,0 +1,128 @@
+{
+    "properties": [
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "unitOfWorkTypes", 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 38, 
+                "line": 4
+            }, 
+            "type": "LIST"
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "domainTypesMap", 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 43, 
+                "line": 9
+            }, 
+            "type": "Map"
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "selectorTypeMap", 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 43, 
+                "line": 14
+            }, 
+            "type": "Map"
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "serviceTypesMap", 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 35, 
+                "line": 20
+            }, 
+            "type": "Map"
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "UnitOfWork", 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 61, 
+                "line": 24
+            }, 
+            "type": "UnitOfWorkFactory"
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "Selector", 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 56, 
+                "line": 27
+            }, 
+            "type": "SelectorFactory"
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "Domain", 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 57, 
+                "line": 30
+            }, 
+            "type": "DomainFactory"
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "Service", 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 58, 
+                "line": 33
+            }, 
+            "type": "ServiceFactory"
+        }
+    ], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "t3_Application", 
+    "tableDeclaration": {
+        "type": "t3_Application", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 14, 
+            "line": 1
+        }, 
+        "name": "t3_Application"
+    }, 
+    "key": "01pj0000003ENtXAAW", 
+    "variables": [], 
+    "id": "01pj0000003ENtXAAW", 
+    "methods": []
+}

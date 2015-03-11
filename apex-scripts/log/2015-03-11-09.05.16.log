@@ -1,0 +1,55 @@
+Execute Anonymous
+
+================================
+
+Product__c p = new Product__c( Name='P1', Inventory__c= 100 );
+
+insert p ;
+
+Invoice__c i = new Invoice__c(  Amount__c=1);
+i.ProductLine__c = p.id;
+insert i;
+
+t3_Invoice_ServiceImpl.activateInvoices( new Set<Id>{i.id} );
+
+================================
+
+31.0 APEX_CODE,DEBUG;APEX_PROFILING,DEBUG;CALLOUT,INFO;DB,INFO;VALIDATION,INFO;WORKFLOW,INFO
+Execute Anonymous: Product__c p = new Product__c( Name='P1', Inventory__c= 100 );
+Execute Anonymous: 
+Execute Anonymous: insert p ;
+Execute Anonymous: 
+Execute Anonymous: Invoice__c i = new Invoice__c(  Amount__c=1);
+Execute Anonymous: i.ProductLine__c = p.id;
+Execute Anonymous: insert i;
+Execute Anonymous: 
+Execute Anonymous: t3_Invoice_ServiceImpl.activateInvoices( new Set<Id>{i.id} );
+09:05:17.123 (123246896)|EXECUTION_STARTED
+09:05:17.123 (123255523)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+09:05:17.123 (123923920)|DML_BEGIN|[3]|Op:Insert|Type:Product__c|Rows:1
+09:05:17.167 (167693633)|DML_END|[3]
+09:05:17.168 (168054190)|DML_BEGIN|[7]|Op:Insert|Type:Invoice__c|Rows:1
+09:05:17.201 (201641800)|DML_END|[7]
+09:05:17.206 (206071745)|METHOD_ENTRY|[1]|01pj0000003ETen|t3_Invoice_ServiceImpl.t3_Invoice_ServiceImpl()
+09:05:17.206 (206086305)|METHOD_EXIT|[1]|t3_Invoice_ServiceImpl
+09:05:17.206 (206116561)|METHOD_ENTRY|[9]|01pj0000003ETen|t3_Invoice_ServiceImpl.activateInvoices(Set<Id>)
+09:05:17.206 (206129755)|METHOD_EXIT|[9]|01pj0000003ETen|t3_Invoice_ServiceImpl.activateInvoices(Set<Id>)
+09:05:17.601 (209709141)|CUMULATIVE_LIMIT_USAGE
+09:05:17.601|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 2 out of 150
+  Number of DML rows: 2 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+09:05:17.601|CUMULATIVE_LIMIT_USAGE_END
+
+09:05:17.209 (209737594)|CODE_UNIT_FINISHED|execute_anonymous_apex
+09:05:17.211 (211516603)|EXECUTION_FINISHED

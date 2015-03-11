@@ -1,0 +1,191 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [
+        {
+            "properties": [], 
+            "externalReferences": [], 
+            "innerClasses": [], 
+            "interfaces": [], 
+            "constructors": [], 
+            "namespace": null, 
+            "name": "Constructor", 
+            "tableDeclaration": {
+                "type": "Constructor", 
+                "modifiers": [], 
+                "references": [], 
+                "location": {
+                    "column": 15, 
+                    "line": 25
+                }, 
+                "name": "Constructor"
+            }, 
+            "key": null, 
+            "variables": [
+                {
+                    "type": "LIST", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 54, 
+                        "line": 27
+                    }, 
+                    "name": "sObjectList"
+                }
+            ], 
+            "id": null, 
+            "methods": [
+                {
+                    "modifiers": [], 
+                    "name": "construct", 
+                    "parameters": [
+                        {
+                            "type": "LIST", 
+                            "name": "sObjectList"
+                        }
+                    ], 
+                    "visibility": "PUBLIC", 
+                    "references": [], 
+                    "location": {
+                        "column": 30, 
+                        "line": 27
+                    }, 
+                    "returnType": "fflib_SObjectDomain", 
+                    "type": null
+                }
+            ]
+        }
+    ], 
+    "interfaces": [
+        "t3_iProducts"
+    ], 
+    "constructors": [
+        {
+            "modifiers": [], 
+            "name": "t3_Products", 
+            "parameters": [
+                {
+                    "type": "LIST", 
+                    "name": "sObjectList"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 9, 
+                "line": 8
+            }, 
+            "type": null
+        }
+    ], 
+    "namespace": null, 
+    "name": "t3_Products", 
+    "tableDeclaration": {
+        "type": "t3_Products", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 14, 
+            "line": 1
+        }, 
+        "name": "t3_Products"
+    }, 
+    "key": "01pj0000003ENgkAAG", 
+    "variables": [
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 38, 
+                "line": 8
+            }, 
+            "name": "sObjectList"
+        }, 
+        {
+            "type": "fflib_ISObjectUnitOfWork", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 55, 
+                "line": 13
+            }, 
+            "name": "uow"
+        }, 
+        {
+            "type": "Map", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 76, 
+                "line": 13
+            }, 
+            "name": "amounts"
+        }, 
+        {
+            "type": "Product__c", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 18, 
+                "line": 15
+            }, 
+            "name": "product"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 58, 
+                "line": 3
+            }, 
+            "name": "sObjectList"
+        }
+    ], 
+    "id": "01pj0000003ENgkAAG", 
+    "methods": [
+        {
+            "modifiers": [], 
+            "name": "updateInventory", 
+            "parameters": [
+                {
+                    "type": "fflib_ISObjectUnitOfWork", 
+                    "name": "uow"
+                }, 
+                {
+                    "type": "Map", 
+                    "name": "amounts"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 14, 
+                "line": 13
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "newInstance", 
+            "parameters": [
+                {
+                    "type": "LIST", 
+                    "name": "sObjectList"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 29, 
+                "line": 3
+            }, 
+            "returnType": "t3_iProducts", 
+            "type": null
+        }
+    ]
+}

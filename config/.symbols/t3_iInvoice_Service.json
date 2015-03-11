@@ -1,0 +1,53 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "t3_iInvoice_Service", 
+    "tableDeclaration": {
+        "type": "t3_iInvoice_Service", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 18, 
+            "line": 1
+        }, 
+        "name": "t3_iInvoice_Service"
+    }, 
+    "key": "01pj0000003ETa6AAG", 
+    "variables": [
+        {
+            "type": "Set", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 32, 
+                "line": 3
+            }, 
+            "name": "ids"
+        }
+    ], 
+    "id": "01pj0000003ETa6AAG", 
+    "methods": [
+        {
+            "modifiers": [], 
+            "name": "activateInvoices", 
+            "parameters": [
+                {
+                    "type": "Set", 
+                    "name": "ids"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 7, 
+                "line": 3
+            }, 
+            "returnType": "void", 
+            "type": null
+        }
+    ]
+}

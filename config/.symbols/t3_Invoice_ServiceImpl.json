@@ -1,0 +1,107 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [
+        "t3_iInvoice_Service"
+    ], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "t3_Invoice_ServiceImpl", 
+    "tableDeclaration": {
+        "type": "t3_Invoice_ServiceImpl", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 14, 
+            "line": 1
+        }, 
+        "name": "t3_Invoice_ServiceImpl"
+    }, 
+    "key": "01pj0000003ETenAAG", 
+    "variables": [
+        {
+            "type": "Set", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 46, 
+                "line": 4
+            }, 
+            "name": "ids"
+        }, 
+        {
+            "type": "fflib_ISObjectUnitOfWork", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 28, 
+                "line": 7
+            }, 
+            "name": "uow"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 20, 
+                "line": 9
+            }, 
+            "name": "invoiceList"
+        }, 
+        {
+            "type": "t3_iInvoices", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 16, 
+                "line": 13
+            }, 
+            "name": "invoices"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 20, 
+                "line": 17
+            }, 
+            "name": "productsList"
+        }, 
+        {
+            "type": "t3_iProducts", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 16, 
+                "line": 19
+            }, 
+            "name": "products"
+        }
+    ], 
+    "id": "01pj0000003ETenAAG", 
+    "methods": [
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "activateInvoices", 
+            "parameters": [
+                {
+                    "type": "Set", 
+                    "name": "ids"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 21, 
+                "line": 4
+            }, 
+            "returnType": "void", 
+            "type": null
+        }
+    ]
+}

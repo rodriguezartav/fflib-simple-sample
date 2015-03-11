@@ -1,0 +1,81 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [
+        "t3_iInvoice_Selector"
+    ], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "t3_Invoice_Selector", 
+    "tableDeclaration": {
+        "type": "t3_Invoice_Selector", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 14, 
+            "line": 13
+        }, 
+        "name": "t3_Invoice_Selector"
+    }, 
+    "key": "01pj0000003ETjeAAG", 
+    "variables": [
+        {
+            "type": "Set", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 45, 
+                "line": 30
+            }, 
+            "name": "idSet"
+        }
+    ], 
+    "id": "01pj0000003ETjeAAG", 
+    "methods": [
+        {
+            "modifiers": [], 
+            "name": "getSObjectFieldList", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 35, 
+                "line": 15
+            }, 
+            "returnType": "LIST", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "getSObjectType", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 28, 
+                "line": 25
+            }, 
+            "returnType": "SObjectType", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "selectById", 
+            "parameters": [
+                {
+                    "type": "Set", 
+                    "name": "idSet"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 26, 
+                "line": 30
+            }, 
+            "returnType": "LIST", 
+            "type": null
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "t3_iInvoice_Selector", 
+    "tableDeclaration": {
+        "type": "t3_iInvoice_Selector", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 18, 
+            "line": 1
+        }, 
+        "name": "t3_iInvoice_Selector"
+    }, 
+    "key": "01pj0000003ETjZAAW", 
+    "variables": [
+        {
+            "type": "Set", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 38, 
+                "line": 2
+            }, 
+            "name": "idSet"
+        }
+    ], 
+    "id": "01pj0000003ETjZAAW", 
+    "methods": [
+        {
+            "modifiers": [], 
+            "name": "selectById", 
+            "parameters": [
+                {
+                    "type": "Set", 
+                    "name": "idSet"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 19, 
+                "line": 2
+            }, 
+            "returnType": "LIST", 
+            "type": null
+        }
+    ]
+}

@@ -1,0 +1,820 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [
+        {
+            "properties": [
+                {
+                    "modifiers": [], 
+                    "name": "m_objectTypes", 
+                    "visibility": "PRIVATE", 
+                    "references": [], 
+                    "location": {
+                        "column": 29, 
+                        "line": 39
+                    }, 
+                    "type": "LIST"
+                }, 
+                {
+                    "modifiers": [], 
+                    "name": "m_mockUow", 
+                    "visibility": "PRIVATE", 
+                    "references": [], 
+                    "location": {
+                        "column": 36, 
+                        "line": 40
+                    }, 
+                    "type": "fflib_ISObjectUnitOfWork"
+                }
+            ], 
+            "externalReferences": [], 
+            "innerClasses": [], 
+            "interfaces": [], 
+            "constructors": [
+                {
+                    "modifiers": [], 
+                    "name": "UnitOfWorkFactory", 
+                    "parameters": [
+                        {
+                            "type": "LIST", 
+                            "name": "objectTypes"
+                        }
+                    ], 
+                    "visibility": "PUBLIC", 
+                    "references": [], 
+                    "location": {
+                        "column": 10, 
+                        "line": 47
+                    }, 
+                    "type": null
+                }
+            ], 
+            "namespace": null, 
+            "name": "UnitOfWorkFactory", 
+            "tableDeclaration": {
+                "type": "UnitOfWorkFactory", 
+                "modifiers": [], 
+                "references": [], 
+                "location": {
+                    "column": 15, 
+                    "line": 37
+                }, 
+                "name": "UnitOfWorkFactory"
+            }, 
+            "key": null, 
+            "variables": [
+                {
+                    "type": "LIST", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 46, 
+                        "line": 47
+                    }, 
+                    "name": "objectTypes"
+                }, 
+                {
+                    "type": "fflib_ISObjectUnitOfWork", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 49, 
+                        "line": 66
+                    }, 
+                    "name": "mockUow"
+                }
+            ], 
+            "id": null, 
+            "methods": [
+                {
+                    "modifiers": [], 
+                    "name": "newInstance", 
+                    "parameters": [], 
+                    "visibility": "PUBLIC", 
+                    "references": [], 
+                    "location": {
+                        "column": 35, 
+                        "line": 57
+                    }, 
+                    "returnType": "fflib_ISObjectUnitOfWork", 
+                    "type": null
+                }, 
+                {
+                    "modifiers": [], 
+                    "name": "setMock", 
+                    "parameters": [
+                        {
+                            "type": "fflib_ISObjectUnitOfWork", 
+                            "name": "mockUow"
+                        }
+                    ], 
+                    "visibility": "PRIVATE", 
+                    "references": [], 
+                    "location": {
+                        "column": 16, 
+                        "line": 66
+                    }, 
+                    "returnType": "void", 
+                    "type": null
+                }
+            ]
+        }, 
+        {
+            "properties": [
+                {
+                    "modifiers": [], 
+                    "name": "m_serviceInterfaceTypeByServiceImplType", 
+                    "visibility": "PRIVATE", 
+                    "references": [], 
+                    "location": {
+                        "column": 27, 
+                        "line": 77
+                    }, 
+                    "type": "Map"
+                }, 
+                {
+                    "modifiers": [], 
+                    "name": "m_serviceInterfaceTypeByMockService", 
+                    "visibility": "PRIVATE", 
+                    "references": [], 
+                    "location": {
+                        "column": 29, 
+                        "line": 79
+                    }, 
+                    "type": "Map"
+                }
+            ], 
+            "externalReferences": [], 
+            "innerClasses": [], 
+            "interfaces": [], 
+            "constructors": [
+                {
+                    "modifiers": [], 
+                    "name": "ServiceFactory", 
+                    "parameters": [
+                        {
+                            "type": "Map", 
+                            "name": "serviceInterfaceTypeByServiceImplType"
+                        }
+                    ], 
+                    "visibility": "PUBLIC", 
+                    "references": [], 
+                    "location": {
+                        "column": 10, 
+                        "line": 89
+                    }, 
+                    "type": null
+                }
+            ], 
+            "namespace": null, 
+            "name": "ServiceFactory", 
+            "tableDeclaration": {
+                "type": "ServiceFactory", 
+                "modifiers": [], 
+                "references": [], 
+                "location": {
+                    "column": 15, 
+                    "line": 75
+                }, 
+                "name": "ServiceFactory"
+            }, 
+            "key": null, 
+            "variables": [
+                {
+                    "type": "Map", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 41, 
+                        "line": 89
+                    }, 
+                    "name": "serviceInterfaceTypeByServiceImplType"
+                }, 
+                {
+                    "type": "Type", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 34, 
+                        "line": 103
+                    }, 
+                    "name": "serviceInterfaceType"
+                }, 
+                {
+                    "type": "Type", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 9, 
+                        "line": 110
+                    }, 
+                    "name": "serviceImpl"
+                }, 
+                {
+                    "type": "Type", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 29, 
+                        "line": 117
+                    }, 
+                    "name": "serviceInterfaceType"
+                }, 
+                {
+                    "type": "Object", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 58, 
+                        "line": 117
+                    }, 
+                    "name": "serviceImpl"
+                }
+            ], 
+            "id": null, 
+            "methods": [
+                {
+                    "modifiers": [], 
+                    "name": "newInstance", 
+                    "parameters": [
+                        {
+                            "type": "Type", 
+                            "name": "serviceInterfaceType"
+                        }
+                    ], 
+                    "visibility": "PUBLIC", 
+                    "references": [], 
+                    "location": {
+                        "column": 17, 
+                        "line": 103
+                    }, 
+                    "returnType": "Object", 
+                    "type": null
+                }, 
+                {
+                    "modifiers": [], 
+                    "name": "setMock", 
+                    "parameters": [
+                        {
+                            "type": "Type", 
+                            "name": "serviceInterfaceType"
+                        }, 
+                        {
+                            "type": "Object", 
+                            "name": "serviceImpl"
+                        }
+                    ], 
+                    "visibility": "PRIVATE", 
+                    "references": [], 
+                    "location": {
+                        "column": 16, 
+                        "line": 117
+                    }, 
+                    "returnType": "void", 
+                    "type": null
+                }
+            ]
+        }, 
+        {
+            "properties": [
+                {
+                    "modifiers": [], 
+                    "name": "m_sObjectBySelectorType", 
+                    "visibility": "PRIVATE", 
+                    "references": [], 
+                    "location": {
+                        "column": 34, 
+                        "line": 128
+                    }, 
+                    "type": "Map"
+                }, 
+                {
+                    "modifiers": [], 
+                    "name": "m_sObjectByMockSelector", 
+                    "visibility": "PRIVATE", 
+                    "references": [], 
+                    "location": {
+                        "column": 52, 
+                        "line": 129
+                    }, 
+                    "type": "Map"
+                }
+            ], 
+            "externalReferences": [], 
+            "innerClasses": [], 
+            "interfaces": [], 
+            "constructors": [
+                {
+                    "modifiers": [], 
+                    "name": "SelectorFactory", 
+                    "parameters": [
+                        {
+                            "type": "Map", 
+                            "name": "sObjectBySelectorType"
+                        }
+                    ], 
+                    "visibility": "PUBLIC", 
+                    "references": [], 
+                    "location": {
+                        "column": 10, 
+                        "line": 138
+                    }, 
+                    "type": null
+                }
+            ], 
+            "namespace": null, 
+            "name": "SelectorFactory", 
+            "tableDeclaration": {
+                "type": "SelectorFactory", 
+                "modifiers": [], 
+                "references": [], 
+                "location": {
+                    "column": 15, 
+                    "line": 126
+                }, 
+                "name": "SelectorFactory"
+            }, 
+            "key": null, 
+            "variables": [
+                {
+                    "type": "Map", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 49, 
+                        "line": 138
+                    }, 
+                    "name": "sObjectBySelectorType"
+                }, 
+                {
+                    "type": "SObjectType", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 57, 
+                        "line": 150
+                    }, 
+                    "name": "sObjectType"
+                }, 
+                {
+                    "type": "Type", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 9, 
+                        "line": 157
+                    }, 
+                    "name": "selectorClass"
+                }, 
+                {
+                    "type": "Set", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 43, 
+                        "line": 173
+                    }, 
+                    "name": "recordIds"
+                }, 
+                {
+                    "type": "SObjectType", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 16, 
+                        "line": 180
+                    }, 
+                    "name": "domainSObjectType"
+                }, 
+                {
+                    "type": "Id", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 11, 
+                        "line": 181
+                    }, 
+                    "name": "recordId"
+                }, 
+                {
+                    "type": "LIST", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 59, 
+                        "line": 201
+                    }, 
+                    "name": "relatedRecords"
+                }, 
+                {
+                    "type": "SObjectField", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 88, 
+                        "line": 201
+                    }, 
+                    "name": "relationshipField"
+                }, 
+                {
+                    "type": "Set", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 12, 
+                        "line": 203
+                    }, 
+                    "name": "relatedIds"
+                }, 
+                {
+                    "type": "SObject", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 16, 
+                        "line": 204
+                    }, 
+                    "name": "relatedRecord"
+                }, 
+                {
+                    "type": "Id", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 8, 
+                        "line": 206
+                    }, 
+                    "name": "relatedId"
+                }, 
+                {
+                    "type": "fflib_ISObjectSelector", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 47, 
+                        "line": 214
+                    }, 
+                    "name": "selectorInstance"
+                }
+            ], 
+            "id": null, 
+            "methods": [
+                {
+                    "modifiers": [], 
+                    "name": "newInstance", 
+                    "parameters": [
+                        {
+                            "type": "SObjectType", 
+                            "name": "sObjectType"
+                        }
+                    ], 
+                    "visibility": "PUBLIC", 
+                    "references": [], 
+                    "location": {
+                        "column": 33, 
+                        "line": 150
+                    }, 
+                    "returnType": "fflib_ISObjectSelector", 
+                    "type": null
+                }, 
+                {
+                    "modifiers": [], 
+                    "name": "selectById", 
+                    "parameters": [
+                        {
+                            "type": "Set", 
+                            "name": "recordIds"
+                        }
+                    ], 
+                    "visibility": "PUBLIC", 
+                    "references": [], 
+                    "location": {
+                        "column": 24, 
+                        "line": 173
+                    }, 
+                    "returnType": "LIST", 
+                    "type": null
+                }, 
+                {
+                    "modifiers": [], 
+                    "name": "selectByRelationship", 
+                    "parameters": [
+                        {
+                            "type": "LIST", 
+                            "name": "relatedRecords"
+                        }, 
+                        {
+                            "type": "SObjectField", 
+                            "name": "relationshipField"
+                        }
+                    ], 
+                    "visibility": "PUBLIC", 
+                    "references": [], 
+                    "location": {
+                        "column": 24, 
+                        "line": 201
+                    }, 
+                    "returnType": "LIST", 
+                    "type": null
+                }, 
+                {
+                    "modifiers": [], 
+                    "name": "setMock", 
+                    "parameters": [
+                        {
+                            "type": "fflib_ISObjectSelector", 
+                            "name": "selectorInstance"
+                        }
+                    ], 
+                    "visibility": "PRIVATE", 
+                    "references": [], 
+                    "location": {
+                        "column": 16, 
+                        "line": 214
+                    }, 
+                    "returnType": "void", 
+                    "type": null
+                }
+            ]
+        }, 
+        {
+            "properties": [
+                {
+                    "modifiers": [], 
+                    "name": "m_selectorFactory", 
+                    "visibility": "PRIVATE", 
+                    "references": [], 
+                    "location": {
+                        "column": 45, 
+                        "line": 225
+                    }, 
+                    "type": "SelectorFactory"
+                }, 
+                {
+                    "modifiers": [], 
+                    "name": "m_sObjectByDomainConstructorType", 
+                    "visibility": "PRIVATE", 
+                    "references": [], 
+                    "location": {
+                        "column": 34, 
+                        "line": 227
+                    }, 
+                    "type": "Map"
+                }, 
+                {
+                    "modifiers": [], 
+                    "name": "m_sObjectByMockDomain", 
+                    "visibility": "PRIVATE", 
+                    "references": [], 
+                    "location": {
+                        "column": 50, 
+                        "line": 229
+                    }, 
+                    "type": "Map"
+                }
+            ], 
+            "externalReferences": [], 
+            "innerClasses": [], 
+            "interfaces": [], 
+            "constructors": [
+                {
+                    "modifiers": [], 
+                    "name": "DomainFactory", 
+                    "parameters": [
+                        {
+                            "type": "SelectorFactory", 
+                            "name": "selectorFactory"
+                        }, 
+                        {
+                            "type": "Map", 
+                            "name": "sObjectByDomainConstructorType"
+                        }
+                    ], 
+                    "visibility": "PUBLIC", 
+                    "references": [], 
+                    "location": {
+                        "column": 10, 
+                        "line": 240
+                    }, 
+                    "type": null
+                }
+            ], 
+            "namespace": null, 
+            "name": "DomainFactory", 
+            "tableDeclaration": {
+                "type": "DomainFactory", 
+                "modifiers": [], 
+                "references": [], 
+                "location": {
+                    "column": 15, 
+                    "line": 223
+                }, 
+                "name": "DomainFactory"
+            }, 
+            "key": null, 
+            "variables": [
+                {
+                    "type": "SelectorFactory", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 58, 
+                        "line": 240
+                    }, 
+                    "name": "selectorFactory"
+                }, 
+                {
+                    "type": "Map", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 27, 
+                        "line": 241
+                    }, 
+                    "name": "sObjectByDomainConstructorType"
+                }, 
+                {
+                    "type": "Set", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 51, 
+                        "line": 256
+                    }, 
+                    "name": "recordIds"
+                }, 
+                {
+                    "type": "LIST", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 57, 
+                        "line": 270
+                    }, 
+                    "name": "records"
+                }, 
+                {
+                    "type": "SObjectType", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 16, 
+                        "line": 272
+                    }, 
+                    "name": "domainSObjectType"
+                }, 
+                {
+                    "type": "Type", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 9, 
+                        "line": 281
+                    }, 
+                    "name": "domainConstructorClass"
+                }, 
+                {
+                    "type": "IConstructable", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 39, 
+                        "line": 287
+                    }, 
+                    "name": "domainConstructor"
+                }, 
+                {
+                    "type": "fflib_ISObjectDomain", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 45, 
+                        "line": 293
+                    }, 
+                    "name": "mockDomain"
+                }
+            ], 
+            "id": null, 
+            "methods": [
+                {
+                    "modifiers": [], 
+                    "name": "newInstance", 
+                    "parameters": [
+                        {
+                            "type": "Set", 
+                            "name": "recordIds"
+                        }
+                    ], 
+                    "visibility": "PUBLIC", 
+                    "references": [], 
+                    "location": {
+                        "column": 31, 
+                        "line": 256
+                    }, 
+                    "returnType": "fflib_ISObjectDomain", 
+                    "type": null
+                }, 
+                {
+                    "modifiers": [], 
+                    "name": "newInstance", 
+                    "parameters": [
+                        {
+                            "type": "LIST", 
+                            "name": "records"
+                        }
+                    ], 
+                    "visibility": "PUBLIC", 
+                    "references": [], 
+                    "location": {
+                        "column": 31, 
+                        "line": 270
+                    }, 
+                    "returnType": "fflib_ISObjectDomain", 
+                    "type": null
+                }, 
+                {
+                    "modifiers": [], 
+                    "name": "setMock", 
+                    "parameters": [
+                        {
+                            "type": "fflib_ISObjectDomain", 
+                            "name": "mockDomain"
+                        }
+                    ], 
+                    "visibility": "PRIVATE", 
+                    "references": [], 
+                    "location": {
+                        "column": 16, 
+                        "line": 293
+                    }, 
+                    "returnType": "void", 
+                    "type": null
+                }
+            ]
+        }, 
+        {
+            "properties": [], 
+            "externalReferences": [], 
+            "innerClasses": [], 
+            "interfaces": [], 
+            "constructors": [], 
+            "namespace": null, 
+            "name": "ApplicationException", 
+            "tableDeclaration": {
+                "type": "ApplicationException", 
+                "modifiers": [], 
+                "references": [], 
+                "location": {
+                    "column": 15, 
+                    "line": 299
+                }, 
+                "name": "ApplicationException"
+            }, 
+            "key": null, 
+            "variables": [], 
+            "id": null, 
+            "methods": []
+        }, 
+        {
+            "properties": [], 
+            "externalReferences": [], 
+            "innerClasses": [], 
+            "interfaces": [], 
+            "constructors": [], 
+            "namespace": null, 
+            "name": "DeveloperException", 
+            "tableDeclaration": {
+                "type": "DeveloperException", 
+                "modifiers": [], 
+                "references": [], 
+                "location": {
+                    "column": 15, 
+                    "line": 304
+                }, 
+                "name": "DeveloperException"
+            }, 
+            "key": null, 
+            "variables": [], 
+            "id": null, 
+            "methods": []
+        }
+    ], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "fflib_Application", 
+    "tableDeclaration": {
+        "type": "fflib_Application", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 14, 
+            "line": 32
+        }, 
+        "name": "fflib_Application"
+    }, 
+    "key": "01pj0000003ELjoAAG", 
+    "variables": [], 
+    "id": "01pj0000003ELjoAAG", 
+    "methods": []
+}

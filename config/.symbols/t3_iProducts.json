@@ -1,0 +1,69 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [
+        "fflib_ISObjectDomain"
+    ], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "t3_iProducts", 
+    "tableDeclaration": {
+        "type": "t3_iProducts", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 18, 
+            "line": 1
+        }, 
+        "name": "t3_iProducts"
+    }, 
+    "key": "01pj0000003ENSfAAO", 
+    "variables": [
+        {
+            "type": "fflib_ISObjectUnitOfWork", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 48, 
+                "line": 3
+            }, 
+            "name": "uow"
+        }, 
+        {
+            "type": "Map", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 69, 
+                "line": 3
+            }, 
+            "name": "amounts"
+        }
+    ], 
+    "id": "01pj0000003ENSfAAO", 
+    "methods": [
+        {
+            "modifiers": [], 
+            "name": "updateInventory", 
+            "parameters": [
+                {
+                    "type": "fflib_ISObjectUnitOfWork", 
+                    "name": "uow"
+                }, 
+                {
+                    "type": "Map", 
+                    "name": "amounts"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 7, 
+                "line": 3
+            }, 
+            "returnType": "void", 
+            "type": null
+        }
+    ]
+}

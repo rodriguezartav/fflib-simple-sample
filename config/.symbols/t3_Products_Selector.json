@@ -1,0 +1,154 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [
+        "t3_iProducts_Selector"
+    ], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "t3_Products_Selector", 
+    "tableDeclaration": {
+        "type": "t3_Products_Selector", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 27, 
+            "line": 1
+        }, 
+        "name": "t3_Products_Selector"
+    }, 
+    "key": "01pj0000003EOBAAA4", 
+    "variables": [
+        {
+            "type": "Set", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 45, 
+                "line": 23
+            }, 
+            "name": "idSet"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 63, 
+                "line": 28
+            }, 
+            "name": "invoices"
+        }, 
+        {
+            "type": "Set", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 11, 
+                "line": 29
+            }, 
+            "name": "ids"
+        }, 
+        {
+            "type": "Invoice__c", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 19, 
+                "line": 30
+            }, 
+            "name": "invoice"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 10, 
+                "line": 34
+            }, 
+            "name": "query"
+        }
+    ], 
+    "id": "01pj0000003EOBAAA4", 
+    "methods": [
+        {
+            "modifiers": [], 
+            "name": "getSObjectFieldList", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 36, 
+                "line": 9
+            }, 
+            "returnType": "LIST", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "getSObjectType", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 28, 
+                "line": 18
+            }, 
+            "returnType": "SObjectType", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "selectById", 
+            "parameters": [
+                {
+                    "type": "Set", 
+                    "name": "idSet"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 26, 
+                "line": 23
+            }, 
+            "returnType": "LIST", 
+            "type": null
+        }, 
+        {
+            "modifiers": [], 
+            "name": "selectFromInvoices", 
+            "parameters": [
+                {
+                    "type": "LIST", 
+                    "name": "invoices"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 26, 
+                "line": 28
+            }, 
+            "returnType": "LIST", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "newInstance", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 38, 
+                "line": 4
+            }, 
+            "returnType": "t3_iProducts_Selector", 
+            "type": null
+        }
+    ]
+}
