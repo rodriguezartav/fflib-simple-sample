@@ -1,0 +1,433 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [
+        {
+            "properties": [
+                {
+                    "modifiers": [], 
+                    "name": "mocks", 
+                    "visibility": "PRIVATE", 
+                    "references": [], 
+                    "location": {
+                        "column": 27, 
+                        "line": 79
+                    }, 
+                    "type": "fflib_ApexMocks"
+                }
+            ], 
+            "externalReferences": [], 
+            "innerClasses": [], 
+            "interfaces": [], 
+            "constructors": [
+                {
+                    "modifiers": [], 
+                    "name": "ProductsMock", 
+                    "parameters": [
+                        {
+                            "type": "fflib_ApexMocks", 
+                            "name": "mocks"
+                        }
+                    ], 
+                    "visibility": "PUBLIC", 
+                    "references": [], 
+                    "location": {
+                        "column": 10, 
+                        "line": 81
+                    }, 
+                    "type": null
+                }
+            ], 
+            "namespace": null, 
+            "name": "ProductsMock", 
+            "tableDeclaration": {
+                "type": "ProductsMock", 
+                "modifiers": [], 
+                "references": [], 
+                "location": {
+                    "column": 15, 
+                    "line": 78
+                }, 
+                "name": "ProductsMock"
+            }, 
+            "key": null, 
+            "variables": [
+                {
+                    "type": "fflib_ApexMocks", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 39, 
+                        "line": 81
+                    }, 
+                    "name": "mocks"
+                }, 
+                {
+                    "type": "fflib_ISObjectUnitOfWork", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 56, 
+                        "line": 87
+                    }, 
+                    "name": "uow"
+                }, 
+                {
+                    "type": "Map", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 77, 
+                        "line": 87
+                    }, 
+                    "name": "amounts"
+                }
+            ], 
+            "id": null, 
+            "methods": [
+                {
+                    "modifiers": [], 
+                    "name": "updateInventory", 
+                    "parameters": [
+                        {
+                            "type": "fflib_ISObjectUnitOfWork", 
+                            "name": "uow"
+                        }, 
+                        {
+                            "type": "Map", 
+                            "name": "amounts"
+                        }
+                    ], 
+                    "visibility": "PUBLIC", 
+                    "references": [], 
+                    "location": {
+                        "column": 15, 
+                        "line": 87
+                    }, 
+                    "returnType": "void", 
+                    "type": null
+                }
+            ]
+        }, 
+        {
+            "properties": [
+                {
+                    "modifiers": [], 
+                    "name": "mocks", 
+                    "visibility": "PRIVATE", 
+                    "references": [], 
+                    "location": {
+                        "column": 27, 
+                        "line": 110
+                    }, 
+                    "type": "fflib_ApexMocks"
+                }
+            ], 
+            "externalReferences": [], 
+            "innerClasses": [], 
+            "interfaces": [], 
+            "constructors": [
+                {
+                    "modifiers": [], 
+                    "name": "InvoicesMock", 
+                    "parameters": [
+                        {
+                            "type": "fflib_ApexMocks", 
+                            "name": "mocks"
+                        }
+                    ], 
+                    "visibility": "PUBLIC", 
+                    "references": [], 
+                    "location": {
+                        "column": 10, 
+                        "line": 112
+                    }, 
+                    "type": null
+                }
+            ], 
+            "namespace": null, 
+            "name": "InvoicesMock", 
+            "tableDeclaration": {
+                "type": "InvoicesMock", 
+                "modifiers": [], 
+                "references": [], 
+                "location": {
+                    "column": 15, 
+                    "line": 109
+                }, 
+                "name": "InvoicesMock"
+            }, 
+            "key": null, 
+            "variables": [
+                {
+                    "type": "fflib_ApexMocks", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 39, 
+                        "line": 112
+                    }, 
+                    "name": "mocks"
+                }, 
+                {
+                    "type": "fflib_ISObjectUnitOfWork", 
+                    "modifiers": [], 
+                    "references": [], 
+                    "location": {
+                        "column": 50, 
+                        "line": 119
+                    }, 
+                    "name": "uow"
+                }
+            ], 
+            "id": null, 
+            "methods": [
+                {
+                    "modifiers": [], 
+                    "name": "activate", 
+                    "parameters": [
+                        {
+                            "type": "fflib_ISObjectUnitOfWork", 
+                            "name": "uow"
+                        }
+                    ], 
+                    "visibility": "PUBLIC", 
+                    "references": [], 
+                    "location": {
+                        "column": 15, 
+                        "line": 119
+                    }, 
+                    "returnType": "void", 
+                    "type": null
+                }, 
+                {
+                    "modifiers": [], 
+                    "name": "getAmountsByProducto", 
+                    "parameters": [], 
+                    "visibility": "PUBLIC", 
+                    "references": [], 
+                    "location": {
+                        "column": 27, 
+                        "line": 127
+                    }, 
+                    "returnType": "Map", 
+                    "type": null
+                }
+            ]
+        }
+    ], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "t3_Invoice_ServiceImpl_Test", 
+    "tableDeclaration": {
+        "type": "t3_Invoice_ServiceImpl_Test", 
+        "modifiers": [
+            "TEST"
+        ], 
+        "references": [], 
+        "location": {
+            "column": 15, 
+            "line": 2
+        }, 
+        "name": "t3_Invoice_ServiceImpl_Test"
+    }, 
+    "key": "01pj0000003EzM9AAK", 
+    "variables": [
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 20, 
+                "line": 6
+            }, 
+            "name": "products"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 20, 
+                "line": 9
+            }, 
+            "name": "invoiceList"
+        }, 
+        {
+            "type": "Set", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 11, 
+                "line": 12
+            }, 
+            "name": "ids"
+        }, 
+        {
+            "type": "Invoice__c", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 19, 
+                "line": 13
+            }, 
+            "name": "i"
+        }, 
+        {
+            "type": "Set", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 11, 
+                "line": 18
+            }, 
+            "name": "pids"
+        }, 
+        {
+            "type": "Product__c", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 19, 
+                "line": 19
+            }, 
+            "name": "p"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 20, 
+                "line": 23
+            }, 
+            "name": "productsCheck"
+        }, 
+        {
+            "type": "Product__c", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 19, 
+                "line": 25
+            }, 
+            "name": "p"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 20, 
+                "line": 34
+            }, 
+            "name": "products"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 20, 
+                "line": 37
+            }, 
+            "name": "invoiceList"
+        }, 
+        {
+            "type": "fflib_ApexMocks", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 19, 
+                "line": 41
+            }, 
+            "name": "mocks"
+        }, 
+        {
+            "type": "fflib_ISObjectUnitOfWork", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 28, 
+                "line": 42
+            }, 
+            "name": "uowMock"
+        }, 
+        {
+            "type": "t3_iProducts", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 16, 
+                "line": 44
+            }, 
+            "name": "productsMock"
+        }, 
+        {
+            "type": "t3_iInvoices", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 16, 
+                "line": 45
+            }, 
+            "name": "invoicesMock"
+        }, 
+        {
+            "type": "Set", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 11, 
+                "line": 60
+            }, 
+            "name": "ids"
+        }, 
+        {
+            "type": "Invoice__c", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 19, 
+                "line": 61
+            }, 
+            "name": "i"
+        }
+    ], 
+    "id": "01pj0000003EzM9AAK", 
+    "methods": [
+        {
+            "modifiers": [
+                "TEST", 
+                "STATIC"
+            ], 
+            "name": "testActivateInvoices_DML", 
+            "parameters": [], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 22, 
+                "line": 4
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "TEST", 
+                "STATIC"
+            ], 
+            "name": "testActivateInvoices_noDML", 
+            "parameters": [], 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 22, 
+                "line": 31
+            }, 
+            "returnType": "void", 
+            "type": null
+        }
+    ]
+}

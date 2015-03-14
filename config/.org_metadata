@@ -417,6 +417,30 @@
             }, 
             {
                 "leaf": true, 
+                "title": "t3_Invoices_Test", 
+                "checked": false, 
+                "id": "ApexClass.t3_Invoices_Test", 
+                "text": "t3_Invoices_Test", 
+                "level": 2, 
+                "isFolder": false, 
+                "children": [], 
+                "select": false, 
+                "cls": ""
+            }, 
+            {
+                "leaf": true, 
+                "title": "t3_ObjectCreator", 
+                "checked": false, 
+                "id": "ApexClass.t3_ObjectCreator", 
+                "text": "t3_ObjectCreator", 
+                "level": 2, 
+                "isFolder": false, 
+                "children": [], 
+                "select": false, 
+                "cls": ""
+            }, 
+            {
+                "leaf": true, 
                 "title": "t3_Products", 
                 "checked": false, 
                 "id": "ApexClass.t3_Products", 
@@ -4579,6 +4603,28 @@
                         ], 
                         "select": false, 
                         "cls": "folder"
+                    }, 
+                    {
+                        "checked": false, 
+                        "level": 3, 
+                        "id": "CustomObject.Invoice__c.listViews", 
+                        "text": "listViews", 
+                        "title": "listViews", 
+                        "isFolder": true, 
+                        "children": [
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "All", 
+                                "title": "All", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Invoice__c.listViews.All", 
+                                "select": false
+                            }
+                        ], 
+                        "select": false, 
+                        "cls": "folder"
                     }
                 ], 
                 "select": false, 
@@ -6458,6 +6504,28 @@
                                 "title": "Inventory__c", 
                                 "isFolder": false, 
                                 "id": "CustomObject.Product__c.fields.Inventory__c", 
+                                "select": false
+                            }
+                        ], 
+                        "select": false, 
+                        "cls": "folder"
+                    }, 
+                    {
+                        "checked": false, 
+                        "level": 3, 
+                        "id": "CustomObject.Product__c.listViews", 
+                        "text": "listViews", 
+                        "title": "listViews", 
+                        "isFolder": true, 
+                        "children": [
+                            {
+                                "leaf": true, 
+                                "checked": false, 
+                                "level": 4, 
+                                "text": "All", 
+                                "title": "All", 
+                                "isFolder": false, 
+                                "id": "CustomObject.Product__c.listViews.All", 
                                 "select": false
                             }
                         ], 

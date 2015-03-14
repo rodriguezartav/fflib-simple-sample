@@ -5,10 +5,10 @@
                 "STATIC"
             ], 
             "name": "unitOfWorkTypes", 
-            "visibility": "PRIVATE", 
+            "visibility": "PUBLIC", 
             "references": [], 
             "location": {
-                "column": 38, 
+                "column": 37, 
                 "line": 4
             }, 
             "type": "LIST"
@@ -18,10 +18,10 @@
                 "STATIC"
             ], 
             "name": "domainTypesMap", 
-            "visibility": "PRIVATE", 
+            "visibility": "PUBLIC", 
             "references": [], 
             "location": {
-                "column": 43, 
+                "column": 42, 
                 "line": 9
             }, 
             "type": "Map"
@@ -31,10 +31,10 @@
                 "STATIC"
             ], 
             "name": "selectorTypeMap", 
-            "visibility": "PRIVATE", 
+            "visibility": "PUBLIC", 
             "references": [], 
             "location": {
-                "column": 43, 
+                "column": 42, 
                 "line": 14
             }, 
             "type": "Map"
@@ -44,10 +44,10 @@
                 "STATIC"
             ], 
             "name": "serviceTypesMap", 
-            "visibility": "PRIVATE", 
+            "visibility": "PUBLIC", 
             "references": [], 
             "location": {
-                "column": 35, 
+                "column": 34, 
                 "line": 20
             }, 
             "type": "Map"
@@ -60,7 +60,7 @@
             "visibility": "PUBLIC", 
             "references": [], 
             "location": {
-                "column": 61, 
+                "column": 56, 
                 "line": 24
             }, 
             "type": "UnitOfWorkFactory"
@@ -73,7 +73,7 @@
             "visibility": "PUBLIC", 
             "references": [], 
             "location": {
-                "column": 56, 
+                "column": 51, 
                 "line": 27
             }, 
             "type": "SelectorFactory"
@@ -86,7 +86,7 @@
             "visibility": "PUBLIC", 
             "references": [], 
             "location": {
-                "column": 57, 
+                "column": 52, 
                 "line": 30
             }, 
             "type": "DomainFactory"
@@ -99,7 +99,7 @@
             "visibility": "PUBLIC", 
             "references": [], 
             "location": {
-                "column": 58, 
+                "column": 53, 
                 "line": 33
             }, 
             "type": "ServiceFactory"

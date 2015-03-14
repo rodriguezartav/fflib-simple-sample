@@ -1,0 +1,280 @@
+{
+    "properties": [], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [], 
+    "namespace": null, 
+    "name": "t3_ObjectCreator", 
+    "tableDeclaration": {
+        "type": "t3_ObjectCreator", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 15, 
+            "line": 1
+        }, 
+        "name": "t3_ObjectCreator"
+    }, 
+    "key": "01pj0000003ElpYAAS", 
+    "variables": [
+        {
+            "type": "Product__c", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 14, 
+                "line": 4
+            }, 
+            "name": "product"
+        }, 
+        {
+            "type": "Integer", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 56, 
+                "line": 10
+            }, 
+            "name": "numberOfProducts"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 20, 
+                "line": 11
+            }, 
+            "name": "products"
+        }, 
+        {
+            "type": "Id", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 45, 
+                "line": 19
+            }, 
+            "name": "productoId"
+        }, 
+        {
+            "type": "Invoice__c", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 14, 
+                "line": 20
+            }, 
+            "name": "invoice"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 66, 
+                "line": 28
+            }, 
+            "name": "products"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 20, 
+                "line": 29
+            }, 
+            "name": "invoices"
+        }, 
+        {
+            "type": "Product__c", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 19, 
+                "line": 30
+            }, 
+            "name": "product"
+        }, 
+        {
+            "type": "Invoice__c", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 15, 
+                "line": 31
+            }, 
+            "name": "invoice"
+        }, 
+        {
+            "type": "SObject", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 37, 
+                "line": 41
+            }, 
+            "name": "obj"
+        }, 
+        {
+            "type": "SObjectType", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 15, 
+                "line": 42
+            }, 
+            "name": "objType"
+        }, 
+        {
+            "type": "LIST", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 43, 
+                "line": 46
+            }, 
+            "name": "objs"
+        }, 
+        {
+            "type": "SObject", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 16, 
+                "line": 47
+            }, 
+            "name": "obj"
+        }, 
+        {
+            "type": "SObjectType", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 16, 
+                "line": 48
+            }, 
+            "name": "objType"
+        }
+    ], 
+    "id": "01pj0000003ElpYAAS", 
+    "methods": [
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "createProduct", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 27, 
+                "line": 3
+            }, 
+            "returnType": "Product__c", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "createProducts", 
+            "parameters": [
+                {
+                    "type": "Integer", 
+                    "name": "numberOfProducts"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 33, 
+                "line": 10
+            }, 
+            "returnType": "LIST", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "createInvoice", 
+            "parameters": [
+                {
+                    "type": "Id", 
+                    "name": "productoId"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 27, 
+                "line": 19
+            }, 
+            "returnType": "Invoice__c", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "createInvoices", 
+            "parameters": [
+                {
+                    "type": "LIST", 
+                    "name": "products"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 33, 
+                "line": 28
+            }, 
+            "returnType": "LIST", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "mockId", 
+            "parameters": [
+                {
+                    "type": "SObject", 
+                    "name": "obj"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 21, 
+                "line": 41
+            }, 
+            "returnType": "void", 
+            "type": null
+        }, 
+        {
+            "modifiers": [
+                "STATIC"
+            ], 
+            "name": "mockId", 
+            "parameters": [
+                {
+                    "type": "LIST", 
+                    "name": "objs"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 21, 
+                "line": 46
+            }, 
+            "returnType": "void", 
+            "type": null
+        }
+    ]
+}

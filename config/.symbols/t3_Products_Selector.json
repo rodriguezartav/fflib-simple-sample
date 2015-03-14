@@ -13,7 +13,7 @@
         "modifiers": [], 
         "references": [], 
         "location": {
-            "column": 27, 
+            "column": 35, 
             "line": 1
         }, 
         "name": "t3_Products_Selector"
@@ -25,7 +25,7 @@
             "modifiers": [], 
             "references": [], 
             "location": {
-                "column": 45, 
+                "column": 53, 
                 "line": 23
             }, 
             "name": "idSet"
@@ -35,7 +35,7 @@
             "modifiers": [], 
             "references": [], 
             "location": {
-                "column": 63, 
+                "column": 71, 
                 "line": 28
             }, 
             "name": "invoices"
@@ -111,7 +111,7 @@
             "visibility": "PUBLIC", 
             "references": [], 
             "location": {
-                "column": 26, 
+                "column": 34, 
                 "line": 23
             }, 
             "returnType": "LIST", 
@@ -129,7 +129,7 @@
             "visibility": "PUBLIC", 
             "references": [], 
             "location": {
-                "column": 26, 
+                "column": 34, 
                 "line": 28
             }, 
             "returnType": "LIST", 

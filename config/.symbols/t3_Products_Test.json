@@ -2,33 +2,33 @@
     "properties": [], 
     "externalReferences": [], 
     "innerClasses": [], 
-    "interfaces": [
-        "t3_iInvoice_Service"
-    ], 
+    "interfaces": [], 
     "constructors": [], 
     "namespace": null, 
-    "name": "t3_Invoice_ServiceImpl", 
+    "name": "t3_Products_Test", 
     "tableDeclaration": {
-        "type": "t3_Invoice_ServiceImpl", 
-        "modifiers": [], 
+        "type": "t3_Products_Test", 
+        "modifiers": [
+            "TEST"
+        ], 
         "references": [], 
         "location": {
-            "column": 14, 
-            "line": 1
+            "column": 15, 
+            "line": 2
         }, 
-        "name": "t3_Invoice_ServiceImpl"
+        "name": "t3_Products_Test"
     }, 
-    "key": "01pj0000003ETenAAG", 
+    "key": "01pj0000003F05qAAC", 
     "variables": [
         {
-            "type": "Set", 
+            "type": "fflib_ApexMocks", 
             "modifiers": [], 
             "references": [], 
             "location": {
-                "column": 46, 
-                "line": 4
+                "column": 19, 
+                "line": 7
             }, 
-            "name": "ids"
+            "name": "mocks"
         }, 
         {
             "type": "fflib_ISObjectUnitOfWork", 
@@ -36,29 +36,29 @@
             "references": [], 
             "location": {
                 "column": 28, 
-                "line": 7
+                "line": 8
             }, 
-            "name": "uow"
+            "name": "uowMock"
         }, 
         {
-            "type": "LIST", 
+            "type": "Product__c", 
             "modifiers": [], 
             "references": [], 
             "location": {
-                "column": 20, 
-                "line": 9
-            }, 
-            "name": "invoiceList"
-        }, 
-        {
-            "type": "t3_iInvoices", 
-            "modifiers": [], 
-            "references": [], 
-            "location": {
-                "column": 16, 
+                "column": 14, 
                 "line": 11
             }, 
-            "name": "invoices"
+            "name": "p"
+        }, 
+        {
+            "type": "Map", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 20, 
+                "line": 13
+            }, 
+            "name": "mapPs"
         }, 
         {
             "type": "LIST", 
@@ -66,9 +66,9 @@
             "references": [], 
             "location": {
                 "column": 20, 
-                "line": 15
+                "line": 16
             }, 
-            "name": "productsList"
+            "name": "testPList"
         }, 
         {
             "type": "t3_iProducts", 
@@ -76,28 +76,24 @@
             "references": [], 
             "location": {
                 "column": 16, 
-                "line": 17
+                "line": 20
             }, 
             "name": "products"
         }
     ], 
-    "id": "01pj0000003ETenAAG", 
+    "id": "01pj0000003F05qAAC", 
     "methods": [
         {
             "modifiers": [
+                "TEST", 
                 "STATIC"
             ], 
-            "name": "activateInvoices", 
-            "parameters": [
-                {
-                    "type": "Set", 
-                    "name": "ids"
-                }
-            ], 
-            "visibility": "PUBLIC", 
+            "name": "updateInventory_test", 
+            "parameters": [], 
+            "visibility": "PRIVATE", 
             "references": [], 
             "location": {
-                "column": 21, 
+                "column": 22, 
                 "line": 4
             }, 
             "returnType": "void", 

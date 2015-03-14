@@ -1,5 +1,5 @@
 
-public with sharing class t3_Products_Selector extends fflib_SObjectSelector
+public with sharing virtual class t3_Products_Selector extends fflib_SObjectSelector
 	implements t3_iProducts_Selector
 {
 	public static t3_iProducts_Selector newInstance()
@@ -21,12 +21,12 @@ public with sharing class t3_Products_Selector extends fflib_SObjectSelector
 		return Product__c.sObjectType;
 	}
 
-	public List<Product__c> selectById(Set<ID> idSet) 
+	public virtual List<Product__c> selectById(Set<ID> idSet) 
 	{
 		return (List<Product__c>) selectSObjectsById(idSet);
 	}
 
-	public List<Product__c> selectFromInvoices( List<Invoice__c> invoices ){
+	public virtual List<Product__c> selectFromInvoices( List<Invoice__c> invoices ){
 		Set<id> ids = new Set<Id>();
 		for( Invoice__c invoice : invoices ){
 			ids.add(invoice.ProductLine__c);

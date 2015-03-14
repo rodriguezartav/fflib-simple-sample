@@ -9,8 +9,6 @@ public class t3_Invoice_ServiceImpl implements t3_iInvoice_Service
 
 		List<Invoice__c> invoiceList = t3_Application.Selector.selectById(ids);
 
-		system.debug(invoiceList);
-
 		t3_iInvoices invoices = (t3_iInvoices)t3_Application.Domain.newInstance(invoiceList);
 
 		invoices.activate(uow);
@@ -19,6 +17,9 @@ public class t3_Invoice_ServiceImpl implements t3_iInvoice_Service
 
 		t3_iProducts products = (t3_iProducts)t3_Application.Domain.newInstance(productsList);
 		
+		system.debug('*****');
+		system.debug( products );
+
 		products.updateInventory(uow, invoices.getAmountsByProducto() );
 
 		uow.commitWork();

@@ -273,6 +273,11 @@ public class fflib_Application
 			if(domainSObjectType==null)
 				throw new DeveloperException('Unable to determine SObjectType');
 
+				system.debug('******1');
+				system.debug( domainSObjectType );
+				system.debug( m_sObjectByMockDomain );
+				system.debug( m_sObjectByMockDomain.containsKey(domainSObjectType) );
+
 			// Mock implementation?
 			if(m_sObjectByMockDomain.containsKey(domainSObjectType))
 				return m_sObjectByMockDomain.get(domainSObjectType);
@@ -292,7 +297,11 @@ public class fflib_Application
 		@TestVisible
 		private void setMock(fflib_ISObjectDomain mockDomain)
 		{
+
 			m_sObjectByMockDomain.put(mockDomain.sObjectType(), mockDomain);			
+		
+				system.debug('******2');
+				system.debug(m_sObjectByMockDomain);
 		}
 	}
 
